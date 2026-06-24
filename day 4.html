@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page title -->
+    <meta charset="UTF-8">
+    <title>HTML Practice</title>
+
+    <!-- CSS for table styling -->
+    <style>
+        table{
+            border:2px solid black;
+            border-collapse:separate;
+            border-spacing:8px;
+        }
+
+        th, td{
+            border:1px solid black;
+            padding:10px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Unordered List -->
+    <h2>Shopping List</h2>
+    <ul>
+        <li>Rice</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Steps to Make Tea</h2>
+    <ol>
+        <li>Boil Water</li>
+        <li>Add Tea Powder</li>
+        <li>Add Milk</li>
+        <li>Serve</li>
+    </ol>
+
+    <!-- Nested List -->
+    <h2>Nested List</h2>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Mango</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Student Table -->
+    <h2>Student Details</h2>
+    <table>
+        <!-- Table Heading -->
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+
+        <!-- Table Row 1 -->
+        <tr>
+            <td>101</td>
+            <td>Lokesh</td>
+            <td>BCA</td>
+        </tr>
+
+        <!-- Table Row 2 -->
+        <tr>
+            <td>102</td>
+            <td>Rahul</td>
+            <td>B.Sc</td>
+        </tr>
+    </table>
+
+    <!-- Table with Colspan -->
+    <h2>Colspan Example</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th colspan="2">Contact Details</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Lokesh</td>
+            <td>9876543210</td>
+            <td>Chennai</td>
+        </tr>
+    </table>
+
+    <!-- Table with Rowspan -->
+    <h2>Rowspan Example</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">102</td>
+            <td>Rahul</td>
+            <td>Madurai</td>
+        </tr>
+
+        <tr>
+            <td>Rahul (Alt)</td>
+            <td>Salem</td>
+        </tr>
+    </table>
+
+    <!-- YouTube Video -->
+    <h2>YouTube Video</h2>
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        allowfullscreen>
+    </iframe>
+
+    <!-- Google Maps -->
+    <h2>Google Maps</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb="
+        width="600"
+        height="450">
+    </iframe>
+
+    <!-- Embed PDF -->
+    <h2>PDF using Embed</h2>
+    <embed
+        src="sample.pdf"
+        type="application/pdf"
+        width="600"
+        height="400">
+
+    <!-- Object PDF -->
+    <h2>PDF using Object</h2>
+    <object
+        data="sample.pdf"
+        type="application/pdf"
+        width="600"
+        height="400">
+        PDF cannot be displayed.
+    </object>
+
+    <!-- Favorite Movies -->
+    <h2>Favorite Movies</h2>
+    <ul>
+        <li>Interstellar</li>
+        <li>Avatar</li>
+        <li>Leo</li>
+    </ul>
+
+    <!-- Movie Details Table -->
+    <table>
+        <tr>
+            <th>Movie</th>
+            <th>Genre</th>
+            <th>Year</th>
+        </tr>
+
+        <tr>
+            <td>Interstellar</td>
+            <td>Sci-Fi</td>
+            <td>2014</td>
+        </tr>
+
+        <tr>
+            <td>Avatar</td>
+            <td>Action</td>
+            <td>2009</td>
+        </tr>
+    </table>
+
+    <!-- Movie Trailer -->
+    <h2>Movie Trailer</h2>
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zSWdZVtXT7E"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
